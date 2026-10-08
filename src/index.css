@@ -1,0 +1,160 @@
+/* ====================================================================
+   LUXURY EDITORIAL DESIGN SYSTEM & FOUNDATION TOKENS
+   ==================================================================== */
+
+:root {
+  /* Core palette */
+  --color-bg-dark: #08070b;
+  --color-bg-card: rgba(20, 17, 26, 0.72);
+  --color-bg-card-hover: rgba(28, 24, 38, 0.88);
+  --color-bg-glass: rgba(255, 255, 255, 0.03);
+
+  /* Typography colors */
+  --color-text-primary: #faf7f5;
+  --color-text-secondary: #b8b0b8;
+  --color-text-muted: #827b85;
+
+  /* Modern warm accents (Amber, Cream, Subtle Violet) */
+  --color-rose: #dfa874;
+  --color-rose-deep: #c48b57;
+  --color-blush: #f4ede4;
+  --color-champagne: #ecdccb;
+  --color-champagne-light: #f7f1e9;
+  --color-violet: #a894dc;
+
+  /* Glows & Lighting */
+  --glow-rose: rgba(223, 168, 116, 0.2);
+  --glow-rose-strong: rgba(223, 168, 116, 0.38);
+  --glow-champagne: rgba(236, 220, 203, 0.2);
+  --glow-ambient: radial-gradient(circle, rgba(223, 168, 116, 0.12) 0%, rgba(8, 7, 11, 0) 70%);
+
+  /* Borders */
+  --border-glass: rgba(236, 220, 203, 0.16);
+  --border-glass-hover: rgba(236, 220, 203, 0.34);
+  --border-gold: rgba(223, 168, 116, 0.32);
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-accent: 'Caveat', cursive, Georgia, serif;
+
+  /* Spacing & Layout */
+  --container-max: 1200px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.7), 0 0 25px -5px var(--glow-rose);
+  --shadow-floating: 0 30px 60px -20px rgba(0, 0, 0, 0.8), 0 0 35px 2px var(--glow-rose);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* CSS Reset & Global rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  line-height: 1.6;
+}
+
+/* Slim elegant custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08070b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(226, 164, 153, 0.25);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(226, 164, 153, 0.5);
+}
+
+/* Text selections */
+::selection {
+  background: rgba(226, 164, 153, 0.35);
+  color: #fff;
+}
+
+/* Media & Images */
+img, svg, video {
+  max-width: 100%;
+  display: block;
+}
+
+/* Interactive elements */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Subtle film grain noise overlay */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Accessibility: Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .stream-track {
+    animation: none !important;
+    transform: none !important;
+    overflow-x: auto !important;
+  }
+}
