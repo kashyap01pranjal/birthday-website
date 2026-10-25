@@ -2,137 +2,138 @@
  * ====================================================================
  * BIRTHDAY WEBSITE CONFIGURATION
  * ====================================================================
- * Friendly, playful, warm, and personal tone.
- * Celebrates Nisha Choudhary with fun banter, warm vibes, and great memories.
+ * Professional, respectful, warm, and heartfelt tribute.
+ * Celebrates Ritu Roongta ("Ritu Ma'am") as an inspiring boss and mentor.
  */
 
 export const birthdayConfig = {
   // Person being celebrated
-  name: "Nisha Choudhary",
-  nickname: "Nisha",
+  name: "Ritu Roongta",
+  nickname: "Ritu Ma'am",
   birthdayDate: "Special Day",
 
-  // Section 1: Intro texts (Casual, friendly, zero speeches)
+  // Section 1: Intro texts
   intro: {
-    eyebrow: "HEY YOU 👋",
-    title: "I made a little something...",
-    subtitle: "Don't worry, it's definitely not a 5-minute speech. 😂",
-    buttonText: "Okay, show me →",
-    holdPrompt: "Press & hold to enter 👀",
+    eyebrow: "A SPECIAL BIRTHDAY TRIBUTE ✨",
+    title: "A Celebration of Leadership",
+    subtitle: "Dedicated to an inspiring mentor, guide, and leader on her special day.",
+    buttonText: "Explore Tribute →",
+    holdPrompt: "Press & hold to enter ✨",
     holdDurationMs: 1500, // Hold for ~1.5 seconds
   },
 
   // Section 2: Birthday reveal
   reveal: {
-    eyebrow: "OKAY, FIRST THINGS FIRST...",
-    headline: "HAPPY BIRTHDAY 🎉",
-    subtitle: "Yep, you're officially another year older. 😌",
-    badge: "LEVEL UNLOCKED 🎮",
+    eyebrow: "WARMEST BIRTHDAY WISHES ✨",
+    headline: "HAPPY BIRTHDAY",
+    subtitle: "Wishing you a wonderful year filled with happiness, good health, success, and fulfillment.",
+    scrollCue: "Scroll to explore the highlights ↓",
+    badge: "INSPIRING LEADER 🌟",
   },
 
-  // Section 3: Photo Journey Header ("The Good Stuff")
+  // Section 3: Photo Journey Header ("Moments & Milestones")
   memoriesHeader: {
-    title: "LOOK WHAT I FOUND 👀",
-    subtitle: "Swipe through... I definitely didn't spend way too long choosing these.",
-    hint: "← swipe → • Double tap to star ⭐ • Tap for the real story",
+    title: "MOMENTS & MILESTONES ✨",
+    subtitle: "A curated collection celebrating leadership, inspiration, and memorable journeys.",
+    hint: "← swipe → • Double tap to star ⭐ • Tap for a reflection",
   },
 
-  // Random Memory Questions during photo journey (Max 3, friendly friend banter)
+  // Thoughtful reflection questions during photo journey
   memoryQuestions: [
     {
       triggerAfterIndex: 3, // Appears on photo 4
-      question: "Okay, be honest... You remember this, right? 👀",
+      question: "Which quality best reflects Ritu Ma'am's leadership?",
       options: [
-        { label: "Obviously 😂", reply: "Good. I knew you'd remember! 😂" },
-        { label: "Nope 😭", reply: "Wow... okay. I'm disappointed. 😂" },
+        { label: "Visionary & Inspiring ✨", reply: "Truly! A vision that constantly motivates and elevates everyone around her. 🌟" },
+        { label: "Calm & Supportive 🤝", reply: "Absolutely! Calm guidance that brings out the very best in the team. 👏" },
       ],
     },
     {
       triggerAfterIndex: 8, // Appears on photo 9
-      question: "Wait... Who actually looked cooler in this moment? 🤭",
+      question: "What makes working with Ritu Ma'am most rewarding?",
       options: [
-        { label: "Definitely you 👀", reply: "Haha, respect the honesty! 😂🤝" },
-        { label: "100% ME 😎", reply: "Confidence is at 100% today. Love to see it! 😌" },
+        { label: "Learning every day 📈", reply: "Indeed! The most valuable lessons come from leaders who lead by example. ✨" },
+        { label: "Encouragement & Trust 🌟", reply: "So true! Her trust and encouragement make all the difference. 🤝" },
       ],
     },
     {
       triggerAfterIndex: 14, // Appears on photo 15
-      question: "Rate this memory out of 10:",
+      question: "Wishing Ritu Ma'am the absolute best year ahead:",
       options: [
-        { label: "Solid 10/10 ✨", reply: "Agreed. Absolute top tier memory right here. 🌟" },
-        { label: "11/10 honestly 😂", reply: "Overachiever... but I'll allow it! 🤝" },
+        { label: "Health & Happiness 🌿", reply: "May this year bring immense peace, vitality, and joyful moments! 🥂" },
+        { label: "Great Milestones & Success 🏆", reply: "Here's to reaching new heights and celebrated achievements! 🎉" },
       ],
     },
   ],
 
-  // "This or That" Memory Activity (Casual debate)
+  // "This or That" Memory Activity (Respectful celebration comparison)
   thisOrThat: {
-    eyebrow: "OKAY, SETTLE THIS...",
-    question: "Which photo wins? 👀",
+    eyebrow: "A MOMENT IN THE SPOTLIGHT...",
+    question: "Which moment captures the celebration best? ✨",
     optionA: {
       memoryId: 1,
-      label: "🌅 This moment",
+      label: "🏛️ Leadership & Vision",
     },
     optionB: {
       memoryId: 8,
-      label: "🌙 That moment",
+      label: "🌅 Serenity & Celebration",
     },
-    replyA: "Good choice. I was hoping you'd pick that one. 😂",
-    replyB: "Hmm... questionable choice. But I'll allow it. 😌",
-    reply: "Good choice! Both are certified classics anyway. ✨",
+    replyA: "An exceptional moment reflecting true dedication and leadership! ✨",
+    replyB: "A wonderful celebration of serenity, joy, and success! 🌟",
+    reply: "Both capture the spirit of an inspiring mentor and leader! ✨",
   },
 
-  // Hidden Easter Egg Secrets (Playful Detective notes)
+  // Hidden Easter Egg Secrets (Respectful, positive appreciation)
   secrets: {
-    hero: "You found it 👀 Okay, you're actually paying attention.",
-    letter: "SECRET UNLOCKED 🔓 You weren't supposed to find that...",
-    gallery: "Okay detective, you found the hidden secret. 🕵️‍♂️",
+    hero: "A mentor who inspires excellence and dedication every single day. ✨",
+    letter: "Thank you for your guidance, encouragement, and trust, Ritu Ma'am! 🌟",
+    gallery: "Celebrating an exceptional leader and a wonderful year ahead! 🏆",
   },
 
-  // Mobile Shake Surprise (Fun & slightly goofy)
+  // Mobile Shake Surprise (Tasteful celebration)
   shakeSurprise: {
-    prompt: "Okay, there's one weird thing... Try shaking your phone. 😂",
-    fallbackTap: "or tap here if shaking looks ridiculous in public 👀",
-    revealedText: "HAHA, IT WORKED 😂 Okay, moving on...",
+    prompt: "A little extra birthday sparkle for Ritu Ma'am ✨",
+    fallbackTap: "Tap here to celebrate 🎉",
+    revealedText: "Wishing you immense joy, good health, and continued success, Ritu Ma'am! 🥂",
   },
 
   // Final Hold-to-Reveal step
   finalUnlock: {
-    teaser: "WAIT...",
-    subteaser: "ONE LAST THING.",
+    teaser: "AND ONE MORE THING...",
+    subteaser: "WARMEST WISHES AHEAD.",
     buttonText: "Hold to reveal 🎉",
     holdDurationMs: 2000,
   },
 
-  // Section 4: Friendly & fun quote breaks
+  // Section 4: Inspiring reflections on mentorship and growth
   quotes: [
-    "Growing older is mandatory. Growing up is entirely optional. 😌",
-    "Some people just make everything 10x more fun. You're definitely one of them. ✨",
-    "Here's to another year of questionable decisions and great stories. 🥂",
+    "Great leaders don't just guide the way; they inspire others to find their own.",
+    "Some of the most valuable lessons come from the people we have the privilege to learn from.",
+    "The best mentors leave a lasting impact through the knowledge they share and the confidence they inspire.",
   ],
 
-  // Section 5: Warm & genuinely friendly note
+  // Section 5: Heartfelt letter of appreciation from an employee
   personalMessage: {
-    eyebrow: "FROM YOUR FAVORITE PERSON (PROBABLY) 😌",
-    heading: "A quick birthday note.",
-    handwrittenAccent: "cheers to you",
+    eyebrow: "WITH SINCERE GRATITUDE ✉️",
+    heading: "A Birthday Note for Ritu Ma'am",
+    handwrittenAccent: "with appreciation & respect",
     paragraphs: [
-      "Look, I'm not going to write a whole 10-page essay here, but I definitely wanted to take a minute to say Happy Birthday to someone truly awesome.",
-      "You bring so much genuine energy, good vibes, and effortless laughter wherever you go. Whether it's random late-night chats, chaotic plans that somehow worked out, or just making ordinary days funny, you're just great to have around.",
-      "I hope this year brings you ridiculous amounts of happiness, zero stress, incredible food, and plenty of new funny memories worth adding to this collection next year.",
+      "Dear Ritu Ma'am, on your special day, I wanted to take a moment to express my sincere appreciation for your guidance, encouragement, and leadership.",
+      "Working under your mentorship has been an invaluable learning experience. I have learned so much from the way you think, lead, and handle challenges with poise, and I continue learning from you every single day. Your trust and support have made a genuine difference in my professional growth.",
+      "Thank you for always inspiring us with your dedication and for being such an exceptional leader and mentor. May this new year bring you abundant happiness, great health, continued success, and countless reasons to smile.",
     ],
-    signoff: "Cheers to you always,",
-    authorName: "Yours truly 😌",
+    signoff: "With sincere respect and best wishes always,",
+    authorName: "Your team member & mentee ✨",
   },
 
   // Section 6: Final celebration
   final: {
-    topNote: "Okay, that was it 😌",
-    eyebrow: "AND FINALLY...",
-    headline: "HAPPY BIRTHDAY 🎉",
-    nameHeart: "NISHA CHOUDHARY ✨",
-    wish: "Hope this year brings you good people, good memories, good food, and a ridiculous amount of fun.",
-    replayText: "Wanna see it again? ↻",
+    topNote: "A heartfelt tribute to an exceptional mentor",
+    eyebrow: "WARMEST WISHES",
+    headline: "HAPPY BIRTHDAY",
+    nameHeart: "RITU ROONGTA ✨",
+    wish: "May this upcoming year bring you the same inspiration, positivity, and success that you bring to the people around you. Happy Birthday, Ritu Ma'am!",
+    replayText: "View the tribute again ↺",
   },
 
   // Music configuration

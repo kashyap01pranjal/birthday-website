@@ -68,7 +68,9 @@ export const BirthdayHero = ({ config, isOpened, onTriggerSecret }) => {
 
         {/* Scroll prompt cue */}
         <div className="hero-scroll-cue stagger-5" aria-hidden="true">
-          <span className="scroll-cue-text">Scroll to see what I found 👀</span>
+          <span className="scroll-cue-text">
+            {config.reveal.scrollCue || "Scroll to explore the highlights ↓"}
+          </span>
           <div className="scroll-cue-icon">
             <svg
               width="20"
