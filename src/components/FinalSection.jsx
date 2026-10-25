@@ -305,7 +305,7 @@ export const FinalSection = ({
           </div>
 
           <div className="final-credits">
-            <span>Dedicated to {config.name || "Ritu Roongta"} ✨</span>
+            <span>Dedicated to {config.name || "Ritu Mam"} ✨</span>
           </div>
         </div>
       )}

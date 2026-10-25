@@ -2,7 +2,7 @@
  * ====================================================================
  * PHOTO COLLECTION: MOMENTS & MILESTONES (20 Frames)
  * ====================================================================
- * Elegant, respectful, and appreciative captions & reflections for Ritu Roongta.
+ * Elegant, respectful, and appreciative captions & reflections for Ritu Mam.
  * Grounded strictly in the visible imagery, celebrating leadership, poise, and warmth.
  */
 
@@ -277,7 +277,7 @@ export const memories = [
     id: 20,
     image: "/images/photo11.jpg",
     caption: "A beautiful year ahead.",
-    story: "Here's to celebrating an exceptional leader and mentor. Happy Birthday, Ritu Ma'am!",
+    story: "Here's to celebrating an exceptional leader and mentor. Happy Birthday, Ritu Mam!",
     tag: "Celebration",
     date: "Finale",
     rotation: 2.5,

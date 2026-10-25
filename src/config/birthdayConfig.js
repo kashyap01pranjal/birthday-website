@@ -3,13 +3,13 @@
  * BIRTHDAY WEBSITE CONFIGURATION
  * ====================================================================
  * Professional, respectful, warm, and heartfelt tribute.
- * Celebrates Ritu Roongta ("Ritu Ma'am") as an inspiring boss and mentor.
+ * Celebrates Ritu Mam as an inspiring boss and mentor.
  */
 
 export const birthdayConfig = {
   // Person being celebrated
-  name: "Ritu Roongta",
-  nickname: "Ritu Ma'am",
+  name: "Ritu Mam",
+  nickname: "Ritu Mam",
   birthdayDate: "Special Day",
 
   // Section 1: Intro texts
@@ -42,7 +42,7 @@ export const birthdayConfig = {
   memoryQuestions: [
     {
       triggerAfterIndex: 3, // Appears on photo 4
-      question: "Which quality best reflects Ritu Ma'am's leadership?",
+      question: "Which quality best reflects Ritu Mam's leadership?",
       options: [
         { label: "Visionary & Inspiring ✨", reply: "Truly! A vision that constantly motivates and elevates everyone around her. 🌟" },
         { label: "Calm & Supportive 🤝", reply: "Absolutely! Calm guidance that brings out the very best in the team. 👏" },
@@ -50,7 +50,7 @@ export const birthdayConfig = {
     },
     {
       triggerAfterIndex: 8, // Appears on photo 9
-      question: "What makes working with Ritu Ma'am most rewarding?",
+      question: "What makes working with Ritu Mam most rewarding?",
       options: [
         { label: "Learning every day 📈", reply: "Indeed! The most valuable lessons come from leaders who lead by example. ✨" },
         { label: "Encouragement & Trust 🌟", reply: "So true! Her trust and encouragement make all the difference. 🤝" },
@@ -58,7 +58,7 @@ export const birthdayConfig = {
     },
     {
       triggerAfterIndex: 14, // Appears on photo 15
-      question: "Wishing Ritu Ma'am the absolute best year ahead:",
+      question: "Wishing Ritu Mam the absolute best year ahead:",
       options: [
         { label: "Health & Happiness 🌿", reply: "May this year bring immense peace, vitality, and joyful moments! 🥂" },
         { label: "Great Milestones & Success 🏆", reply: "Here's to reaching new heights and celebrated achievements! 🎉" },
@@ -86,15 +86,15 @@ export const birthdayConfig = {
   // Hidden Easter Egg Secrets (Respectful, positive appreciation)
   secrets: {
     hero: "A mentor who inspires excellence and dedication every single day. ✨",
-    letter: "Thank you for your guidance, encouragement, and trust, Ritu Ma'am! 🌟",
+    letter: "Thank you for your guidance, encouragement, and trust, Ritu Mam! 🌟",
     gallery: "Celebrating an exceptional leader and a wonderful year ahead! 🏆",
   },
 
   // Mobile Shake Surprise (Tasteful celebration)
   shakeSurprise: {
-    prompt: "A little extra birthday sparkle for Ritu Ma'am ✨",
+    prompt: "A little extra birthday sparkle for Ritu Mam ✨",
     fallbackTap: "Tap here to celebrate 🎉",
-    revealedText: "Wishing you immense joy, good health, and continued success, Ritu Ma'am! 🥂",
+    revealedText: "Wishing you immense joy, good health, and continued success, Ritu Mam! 🥂",
   },
 
   // Final Hold-to-Reveal step
@@ -115,10 +115,10 @@ export const birthdayConfig = {
   // Section 5: Heartfelt letter of appreciation from an employee
   personalMessage: {
     eyebrow: "WITH SINCERE GRATITUDE ✉️",
-    heading: "A Birthday Note for Ritu Ma'am",
+    heading: "A Birthday Note for Ritu Mam",
     handwrittenAccent: "with appreciation & respect",
     paragraphs: [
-      "Dear Ritu Ma'am, on your special day, I wanted to take a moment to express my sincere appreciation for your guidance, encouragement, and leadership.",
+      "Dear Ritu Mam, on your special day, I wanted to take a moment to express my sincere appreciation for your guidance, encouragement, and leadership.",
       "Working under your mentorship has been an invaluable learning experience. I have learned so much from the way you think, lead, and handle challenges with poise, and I continue learning from you every single day. Your trust and support have made a genuine difference in my professional growth.",
       "Thank you for always inspiring us with your dedication and for being such an exceptional leader and mentor. May this new year bring you abundant happiness, great health, continued success, and countless reasons to smile.",
     ],
@@ -131,8 +131,8 @@ export const birthdayConfig = {
     topNote: "A heartfelt tribute to an exceptional mentor",
     eyebrow: "WARMEST WISHES",
     headline: "HAPPY BIRTHDAY",
-    nameHeart: "RITU ROONGTA ✨",
-    wish: "May this upcoming year bring you the same inspiration, positivity, and success that you bring to the people around you. Happy Birthday, Ritu Ma'am!",
+    nameHeart: "RITU MAM ✨",
+    wish: "May this upcoming year bring you the same inspiration, positivity, and success that you bring to the people around you. Happy Birthday, Ritu Mam!",
     replayText: "View the tribute again ↺",
   },
 
